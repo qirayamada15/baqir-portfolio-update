@@ -677,7 +677,37 @@ section {
     justify-content: space-between;
 }
 
-/* Documentation Section */
+/* art Section */
+/* new */
+.gallery {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.art-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.art-item img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.art-item p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.about-art {
+    padding-top: 3rem;
+}
 /* Basic styling for gallery */
 .gallery {
     display: flex;
