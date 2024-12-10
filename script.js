@@ -35,7 +35,7 @@ window.addEventListener("scroll", () => {
 });
 
 // dynamic typing animation 
-const text = ["a Front-End Developer", "a Problem Solver", "Passionate about Code"];
+const text = ["a Front-End Developer","Artist", "a Problem Solver", "Passionate about ART and Design", "Passionate about Code"];
 let index = 0;
 let charIndex = 0;
 let currentText = "";
